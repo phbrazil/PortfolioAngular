@@ -6,8 +6,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class SourceService {
 
-  //readonly baseUrl: string = 'https://sparta-clan.herokuapp.com'
-  readonly baseUrl: string = 'http://localhost:8080'
+  readonly baseUrl: string = 'https://sparta-clan.herokuapp.com'
+  //readonly baseUrl: string = 'http://localhost:8080'
 
 
   constructor(private http: HttpClient) { }
