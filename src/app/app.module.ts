@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
@@ -16,7 +17,8 @@ import { PortuguesComponent } from './portugues/portugues.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PerfectScrollbarModule
+    PerfectScrollbarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
