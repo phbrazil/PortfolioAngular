@@ -20,7 +20,7 @@ export class SourceService {
 
   public getIPAddress()
   {
-    return this.http.get<any>("http://api.ipify.org/?format=json");
+    return this.http.get<any>("https://api.ipify.org/?format=json");
   }
 
   public getBrowserName() {
