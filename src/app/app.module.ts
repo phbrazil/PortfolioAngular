@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EnglishComponent } from './english/english.component';
 import { PortuguesComponent } from './portugues/portugues.component';
+import { TestsComponent } from './tests/tests.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EnglishComponent,
-    PortuguesComponent
+    PortuguesComponent,
+    TestsComponent
   ],
   imports: [
     BrowserModule,

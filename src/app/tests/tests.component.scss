@@ -1,0 +1,24 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+
+
+.div-lbl{
+  min-height: 4em;
+  color: #fff;
+  padding: 0 46px;
+  overflow: auto;
+  background-color: #5a5a5a;
+
+  label{
+    font-size: 18px;
+    margin-top: 1em;
+  }
+
+  input {
+    margin-left: -1em;
+  }
+
+  .noTitle {
+    font-style: italic;
+  }
+
+}
